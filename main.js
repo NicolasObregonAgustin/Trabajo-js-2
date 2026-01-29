@@ -43,18 +43,5 @@ function imprimirProductosEnHTML(producto) {
 imprimirProductosEnHTML(productos)
 
 
-const formulario = document.getElementById("miFormulario")
-
-formulario.addEventListener("submit", function (event) {
-    // Previene el comportamiento predeterminado del formulario:
-    event.preventDefault();
-
-    // Se obtienen los valores de los campos del formulario:
-    const nombre = document.getElementById("nombre").value;
-    const email = document.getElementById("email").value;
-
-    // Se limpian los campos del formulario
-    formulario.reset()
-});
 
 
