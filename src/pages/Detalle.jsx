@@ -4,23 +4,19 @@ import { useParams } from "react-router-dom";
         {
             id: 1,
             nombre: "Laptop",
-            precio: 1200,
 
         },
         {
             id: 2,
             nombre: "Celulares",
-            precio: 1000,
         },
         {
             id: 3,
             nombre: "Tablet",
-            precio: 800,
         },
         {
             id: 4,
             nombre: "Smartwatch",
-            precio: 400,
         }
     ];
 
